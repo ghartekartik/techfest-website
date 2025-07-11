@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Techfest Website | Kartik</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f5f6fa;
+      line-height: 1.6;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #003566;
+      color: #fff;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: 500;
+    }
+
+    /* Header Section */
+    header {
+      background: #ffc300;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #003566;
+      font-size: 28px;
+    }
+
+    /* Content Sections */
+    section {
+      padding: 30px 20px;
+    }
+
+    h2 {
+      color: #001d3d;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #003566;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    /* ✅ Media Query for Mobile Devices (Task 2) */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        margin: 8px 0;
+      }
+
+      header h1 {
+        font-size: 22px;
+      }
+
+      section {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ Navigation Bar (Task 1) -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#task">Tasks</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ✅ Hero Section -->
+  <header>
+    <h1>Welcome to Techfest, IIT Bombay</h1>
+  </header>
+
+  <!-- ✅ About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <p>This domain focuses on creating a strong digital presence for Techfest. From personalization to outreach, your task is to build an amazing website that fuels the spirit of innovation and technology.</p>
+  </section>
+
+  <!-- ✅ Task Section -->
+  <section id="task">
+    <h2>Your Tasks</h2>
+    <ul>
+      <li>Add a navigation bar with internal links (✅ Done)</li>
+      <li>Make it mobile-friendly using CSS media queries (✅ Done)</li>
+      <li>Host your page and submit the link</li>
+    </ul>
+  </section>
+
+  <!-- ✅ Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: kartik@example.com</p>
+    <p>Instagram: @kartik.techfest</p>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer>
+    © 2025 Techfest IIT Bombay | Developed by Kartik
+  </footer>
+
+</body>
+</html>
